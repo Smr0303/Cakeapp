@@ -9,6 +9,7 @@ const cakeReducer=(state=initalState,action)=>{
             ...state,
             numOfCakes:state.numOfCakes-1
         }
+        default:return state
     }
 
 }
